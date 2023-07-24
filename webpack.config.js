@@ -8,11 +8,11 @@ const path = require('path')
 //output is an object need absolute path...
 //watch the change of source files  
 module.exports = {
-  mode: 'developement',
+  mode: 'development',
   entry: './src/index.js',
   output: {
     path : path.resolve(__dirname,'dist'),
-     file name: 'bundle.js'
+     filename: 'bundle.js'
   },
   watch: true
 }
