@@ -5,7 +5,7 @@ const path = require('path')
 //properties
 //mode could be 'production' and 'development'
 //entry for source codes
-//output is an object need absolute path...
+//output is an object and requires absolute path...
 //watch the change of source files  
 module.exports = {
   mode: 'development',

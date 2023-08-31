@@ -3,10 +3,10 @@
 //console.log('hello from index.js')
 
 //For firebase 8: import core part of firebase library 
-import firebase from 'firebase/app';
+//import firebase from 'firebase/app';
 
 //For firebase 9: import core part of firebase library 
-// import { initialize App}
+ import { initializeApp } from 'firebase/app'
 
 //config object firebaseConfig
 const firebaseConfig = {
@@ -19,7 +19,7 @@ const firebaseConfig = {
 };
 
 //For firebase 8:
-firebase.initializeApp(firebaseConfig)
+//firebase.initializeApp(firebaseConfig)
 
 //For firebase 9:
-//initializeApp(firebaseConfig)
+initializeApp(firebaseConfig)
